@@ -27,12 +27,12 @@ ylabel('R_0')
 
 hold on
 
-%increased temp by 1.07 degrees celsius
+%increased temp by 0.43 degrees celsius
 
 %'amakihi
 t=linspace(0,750,1e4);
 
-T=2*sin(2*t.*pi/365 - 2.5)+17.295;
+T=2*sin(2*t.*pi/365 - 2.5)+16.655;
 b=0.856*(T.^(1.11))/241;
 eta_v=T.*0.0116- 0.1504;
 mu_v= 1./(159.68-(T.*4.57));
